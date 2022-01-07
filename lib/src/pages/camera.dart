@@ -49,7 +49,7 @@ class _Camera extends State<Camera> {
     });
   }
 
-  Uri apiUrl = Uri.parse('http://192.168.100.46:3000/api/sign-in/face-id');
+  Uri apiUrl = Uri.parse('http://192.168.0.17:3000/api/sign-in/face-id');
 
   Future upload() async {
     var request = http.MultipartRequest("POST", apiUrl);
